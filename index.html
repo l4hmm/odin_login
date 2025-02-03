@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--Left Column-->
+      <div class="left-column">
+        Left Column
+        <img src="piclumen-1738572444835.png" />
+      </div>
+
+      <!--Right column-->
+      <div class="right-column">
+        <h2>Create an account</h2>
+        <p>Already have an account? <a href="url">Log in</a></p>
+        <form>
+          <div class="input-group">
+            <input
+              type="text"
+              id="firstName"
+              placeholder="First Name"
+              required
+            />
+            <input type="text" id="lastName" placeholder="Last Name" required />
+          </div>
+
+          <input type="email" id="email" placeholder="Email" required />
+          <div class="input-group">
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Confirm Password"
+              required
+            />
+          </div>
+          <button type="submit">Create an Account</button>
+        </form>
+      </div>
+
+      <!--Footer-->
+      <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          L4hmm
+        </p>
+        <a href="https://github.com/l4hmm" target="_blank">
+          <i class="fab fa-github"></i
+        ></a>
+      </footer>
+    </div>
+  </body>
+</html>
